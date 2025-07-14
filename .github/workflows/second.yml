@@ -1,0 +1,8 @@
+name: second-actions
+on: workflow_dispatch
+jobs:
+  name: code pull
+  runs-on: ubuntu-latest
+  steps:
+    - name: gitpull
+      uses: actions/checkout@v4 
