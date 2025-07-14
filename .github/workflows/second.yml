@@ -1,7 +1,7 @@
 name: second-actions
 on: workflow_dispatch
 jobs:
-  code pull:
+  codepull:
     runs-on: ubuntu-latest
     steps:
     - name: gitpull
