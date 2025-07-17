@@ -1,8 +1,8 @@
 name: five-workflow
 on: push
+env:
+  DB_USERNAME: karthik
 jobs:
-  env:
-    DB_USERNAME: karthik
   build:
     runs-on: ubuntu-latest
     steps:
