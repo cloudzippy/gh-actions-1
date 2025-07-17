@@ -1,0 +1,8 @@
+name: third workflow
+on: [push, workflow_dispatch]
+jobs:
+  build:
+  runs-on: ubuntu-latest
+  steps:
+    - name: start the job
+      run: echo "starting the job"
