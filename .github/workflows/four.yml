@@ -7,5 +7,4 @@ jobs:
       - name: first steps
         run: echo "hello world"
       - name: env-varibable
-        run: echo "${{ github }}"
-     
+        run: echo "${{ toJSON(github) }}"
