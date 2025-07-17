@@ -1,7 +1,8 @@
 name: third workflow
 on:
   push:
-    - main
+    branches:
+      - main
   workflow_dispatch:
 jobs:
   build:
