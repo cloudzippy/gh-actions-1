@@ -1,0 +1,11 @@
+name: fourth workflow
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first steps
+        run: echo "hello world"
+      - name: env-varibable
+        run: echo "{{ github }}"
+     
